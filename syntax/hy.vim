@@ -26,7 +26,7 @@ syntax keyword hyBuiltin *map accumulate and assoc butlast calling-module-name
             \ instance? integer integer-char? integer? interleave interpose
             \ is is-not is_not islice iterable? iterate iterator? juxt keyword
             \ keyword? last list* list-comp macroexpand macroexpand-1 map
-            \ merge-with multicombinations name neg? none? nth numeric? odd?
+            \ merge-with multicombinations name neg? none? nth numeric? odd? 
             \ or partition permutations pos? product quasiquote quote range
             \ read read-str reduce remove repeat repeatedly rest second setv
             \ set-comp slice some string string? symbol? take take-nth
@@ -271,7 +271,7 @@ syn keyword hyDefine fn conceal cchar=λ
 
 syntax keyword hyDefine lambda conceal cchar=λ
 
-syn match hyDefine contained "defn" conceal transparent cchar=ƒ
+syn match hyDefine contained "defn" conceal cchar=ƒ
 syn match hyDefine "defn/a" contains=hyDefine,hyAsync
 syn keyword hyDefine defn conceal cchar=ƒ
 
