@@ -287,8 +287,8 @@ syntax keyword hyFunc != conceal cchar=≠
 syntax keyword hyFunc * conceal cchar=∙
 syntax keyword hyFunc math.sqrt conceal cchar=√
 
-syntax keyword hyMacro ->  conceal cchar=⊳
-syntax keyword hyMacro ->> conceal cchar=‣
+syntax keyword hyMacro ->  conceal cchar=→
+syntax keyword hyMacro ->> conceal cchar=↠
 
 syntax keyword hyConstant None    conceal cchar=∅
 syntax keyword hyConstant math.pi conceal cchar=π
